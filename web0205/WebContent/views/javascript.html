@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>자바스크립트</title>
+</head>
+<body>
+<script>
+	//변수 만들기
+	var msg = "자바스크립트"
+	
+	//브라우저에 출력
+	document.write(msg + "<br/>")
+	//대화상자에 출력
+	alert("대화상자에 출력")
+	//콘솔에 출력
+	console.log("콘솔에 출력")
+	
+	//자바스르립트에서는 변수를 만들고 값을 대입하지 않으면 없는 것으로 간주
+	//이런 경우는 undefined
+	var x;
+	document.write(x + "<br />");
+	
+	document.write("20" * 10 + "<br />") //200
+	//숫자로 구성된 문자열에 곱하기를 하면 숫자로 변환해서 계산
+	
+	//문자열과 숫자를 + 연산을 하면 숫자를 문자열로 변환해서 결합
+	document.write("20" + 10 + "<br />") //2010
+	document.write(Number("20") + 10 + "<br />") //30
+	
+	
+	document.write((20&13) + "<br />"); //4
+	document.write((20|13) + "<br />"); //29
+	document.write((20^30) + "<br />"); //25
+	
+	
+</script>
+</body>
+</html>
